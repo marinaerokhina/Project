@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PassActivity</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="your_surname">YOUR SURNAME</string>
+    <string name="your_grade">YOUR GRADE</string>
+    <string name="status">TEACHER/ADMIN/STUDENT</string>
+    <string name="your_age">YOUR AGE</string>
+    <string name="your_login">YOUR LOGIN</string>
+    <string name="your_password">YOUR PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="password">PASSWORD</string>
+    <string name="log_in">LOG IN</string>
+    <string name="registrate">Registrate</string>
+    <string name="name_error">ERROR. NAMESPACE IS EMPTY</string>
+    <string name="surname_error">ERROR. SURNAMESPACE IS EMPTY</string>
+    <string name="status1">Teacher</string>
+    <string name="status2">Admin</string>
+    <string name="status3">Student</string>
+    <string name="status_error">ERROR. THERE\'S NO SUCH STATUS</string>
+    <string name="login_error">ERROR. LOGINCASE IS EMPTY</string>
+    <string name="password_error">ERROR. PASSWORDCASE IS EMPTY</string>
+    <string name="age_error1">ERROR. NO SUCH AGE EXISTS</string>
+    <string name="age_error2">ERROR. AGESPACE IS EMPTY</string>
+    <string name="grade_error1">ERROR. NO SUCH GRADE EXISTS</string>
+    <string name="grade_error2">ERROR. GRADESPACE IS EMPTY</string>
+    <string name="reg_success">YOU REGISTERED SUCCESSFULLY!</string>
+    <string name="log_success">YOU LOGGED IN SUCCESSFULLY!</string>
+    <string name="log_error1">ERROR. SPACE FOR LOGIN OR PASSWORD IS EMPTY</string>
+    <string name="log_error2">ERROR. CHECK YOUR LOGIN AND PASSWORD</string>
+</resources>

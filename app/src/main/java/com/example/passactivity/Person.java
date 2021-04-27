@@ -1,5 +1,7 @@
 package com.example.passactivity;
 
+import android.widget.EditText;
+
 public class Person {
     private String Name;
     private String Surname;
@@ -9,7 +11,7 @@ public class Person {
     private int Age;
     private String Grade;
 
-    public Person() {
+    public Person(EditText login, EditText password, EditText name, EditText surname, EditText status, EditText grade, EditText age) {
     }
 
     public void setName(String name) {

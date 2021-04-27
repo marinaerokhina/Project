@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,7 +24,7 @@ public class RegistActivity extends AppCompatActivity {
     }
 
     public void onRegistration(View view) {
-        Person person = new Person();
+        Person person = new Person(login, password, name, surname, status, grade, age);
         name.getText();
         if (name!=null){
             person.setName(name.toString());
